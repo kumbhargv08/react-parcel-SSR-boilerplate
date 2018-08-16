@@ -9,7 +9,11 @@
     "express": "^4.16.2",
     "ignore-styles": "^5.0.1",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-table": "^6.8.6",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-plugin-css-modules-transform": "^1.6.1",
