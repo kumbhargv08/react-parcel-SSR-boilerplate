@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "server": "node index.js",
-    "start": "yarn server"
+    "copy": "copy \"service-worker.js\" \"dist\" && copy \"Client\\manifest.json\" \"dist\"",
+    "start": " npm run copy && yarn server"
   },
   "dependencies": {
     "express": "^4.16.2",

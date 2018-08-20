@@ -9,10 +9,12 @@ class Header extends Component {
         <header className="App-header">
           <h1 className="App-title">Welcome to React-Parcel-SSR-Demo</h1>
           <table>
+            <tbody>
             <tr>
               <td><Link to='/'>Home</Link></td>
               <td><Link to='/about'>About</Link></td>
             </tr>
+            </tbody>
           </table>
         </header>
     );

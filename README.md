@@ -6,3 +6,4 @@ this biolerplate has
  3.Server-side-rendering
  4.react-router-dom
  5.parcel bundler
+ 6.Progressive Web App changes
